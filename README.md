@@ -1,4 +1,4 @@
-### Primeiros passos
+### Primeiros passos Prisma APi
     * https://www.youtube.com/watch?v=fo6R94jw6R4
     * [x] npm init -y
     * [x] npm i typescript -D
