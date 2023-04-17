@@ -2,7 +2,8 @@ import { Router } from 'express'
 
 import { 
         CreateLoginController, DeleteLoginController,
-        FindAllLoginController, FindLoginController, UpdateLoginController
+        FindAllLoginController, FindLoginController, 
+        UpdateLoginController
 } from './controllers/Login';
 
 const router = Router();
@@ -13,6 +14,7 @@ const findLogin = new FindLoginController
 const createLogin = new CreateLoginController
 const deleteLogin = new DeleteLoginController
 const updateLogin = new UpdateLoginController
+/* continua */
 
 /* ROTAS USUARIOS */
 router.get('/login', findAllLogin.handle)
